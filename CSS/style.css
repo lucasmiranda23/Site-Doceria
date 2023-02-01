@@ -1,0 +1,70 @@
+/*Zerando a página do navegador*/
+*{
+    margin: 0px;
+}
+
+#structure {
+    background-color: white; /*cor de fundo*/
+    width: 90%; /*largura*/
+    margin-left: auto; /*margem a esquerda*/
+    margin-right: auto; /*margem a direita*/
+
+}
+
+#structure #title {
+    background-image: url(../IMAGES/Doce\ 3.jpg); /*imagem dentro do título*/
+    background-position: 0px; /*Posição x e y*/
+    color: white;
+    font-size: 15pt;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 10px; /*espaçamento no topo*/
+    padding-left: 450px; /*espaçamento à esquerda*/
+    height: 100; /*altura*/
+}
+/*criando um classe no css, chamada title*/
+.title{
+    margin-top: 400px;
+}
+p{
+    text-align: justify; /*parágrafo*/
+    text-indent: 35px; /*recuo de parágrafo*/
+    font-family: 'Times New Roman', Times, serif; 
+    font-size: 14pt;
+
+}
+
+#structure #menu ul{
+    padding: 0px; /*espaçamento*/
+}
+
+#structure #menu li{
+    /*retia as marcas do marcador*/
+    list-style: none;
+    /*alinha os links na horizontal*/
+    display: inline-block ;
+    width: 239px;
+    text-align: center;
+    padding: 0px 0px;
+}
+
+#structure #menu a{
+    /*a href*/
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10pt;
+    text-decoration: none;
+    color: #800;
+    background-color: pink;
+    width: 100%;
+    display: inline-block;
+    padding: 10px 10px;
+}
+
+#structure #menu a:hover{
+    background-color: #800;
+    color: pink;
+}
+
+#structure #menu a.actual{/*item de menu selecionado*/
+    background-color: goldenrod;
+
+}
